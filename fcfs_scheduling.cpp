@@ -24,7 +24,7 @@ bool compareID(process p1, process p2)
     return p1.pid < p2.pid;
 }
 
-int main() {
+int main() { 
 
     int n;
     struct process p[100];
